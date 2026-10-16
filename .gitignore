@@ -1,10 +1,45 @@
+
+# Python
 venv/
 .venv/
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Secrets and local configuration
 .env
+*.env
+!.env.example
+
+# React / Node
 node_modules/
-dist/
-build/
+frontend/dist/
+frontend/build/
+
+# Python build files
+*.egg-info/
+
+# Student data - do not upload
 *.csv
-backend/import_students.py/
+*.xlsx
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Android / Gradle files
+.gradle/
+.kotlin/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+*.jks
+*.keystore
+google-services.json
+
+# Logs
+*.log
